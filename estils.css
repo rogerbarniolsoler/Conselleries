@@ -1,0 +1,78 @@
+/* Contenedor principal para los divs */
+main {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 25px 150px 50px 150px;
+}
+
+/* Título "NOVETATS" alineado a la izquierda */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de los divs de novetats */
+.novetatsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre los divs */
+    width: 100%; /* Asegura que los divs ocupen el 100% del ancho disponible */
+}
+
+/* Estilo para los divs de novetats */
+.novetatsDiv {
+    width: 50%; /* Ancho de cada div */
+    background-color: rgb(243, 243, 243); /* Color salmón */
+    border: 1px solid rgb(180, 59, 59); /* Contorno gris claro */
+    padding: 10px 15px; /* Añadido padding en los laterales para espacio adicional */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para los articles dentro de los divs */
+.articleDivs {
+    /* margin-bottom: 20px; */
+    padding-bottom: 7px 20px 7px 20px;
+    border-bottom: 1px solid #D3D3D3; /* Línea gris clara entre los artículos */
+}
+
+/* Espacio entre el último artículo y el borde del div */
+.articleDivs:last-child {
+    border-bottom: none; /* El último artículo no tiene borde inferior */
+}
+
+.citaConfirmadaContainer {
+    width: 98%; /* Ancho de cada div */
+    background-color: rgb(243, 243, 243); /* Color salmón */
+    border: 1px solid rgb(180, 59, 59); /* Contorno gris claro */
+    padding: 10px 15px; /*Añadido padding en los laterales para espacio adicional*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.historicContainer {
+    width: 100%; /* Ancho de cada div */
+    background-color: rgb(243, 243, 243); /* Color salmón */
+    border: 1px solid rgb(180, 59, 59); /* Contorno gris claro */
+    padding: 10px 15px; /* Añadido padding en los laterales para espacio adicional */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.historicContainer h2, 
+.historicContainer h5 {
+    margin: 5px 0; /* Reducir el margen entre los encabezados */
+    padding: 0; /* Asegurarse de que no haya padding adicional */
+}
+
+.historicContainer h4
+{
+    margin: 10px 0; /* Reducir el margen entre los encabezados */
+    padding: 0; /* Asegurarse de que no haya padding adicional */
+}
+
+.historicContainer p {
+    margin: 5px 0; /* Reducir el margen entre los párrafos */
+}
